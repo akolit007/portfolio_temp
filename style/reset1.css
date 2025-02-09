@@ -1,0 +1,53 @@
+/* Убираем отступы и паддинги по умолчанию */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Убираем стандартные стили для списков */
+ul, ol {
+    list-style: none;
+}
+
+/* Убираем подчеркивание ссылок */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Сбрасываем стандартные стили таблиц */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Сбрасываем стили заголовков */
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: normal;
+}
+
+/* Убираем рамки у изображений и кнопок */
+img, video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+button, input, textarea {
+    border: none;
+    background: none;
+    font: inherit;
+}
+
+/* Сбрасываем стандартные стили формы */
+input, textarea {
+    outline: none;
+}
+
+body {
+    line-height: 1.5; /* Устанавливаем базовую высоту строки */
+    -webkit-font-smoothing: antialiased; /* Убираем размытость шрифтов */
+    text-rendering: optimizeLegibility;
+}
