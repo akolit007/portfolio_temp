@@ -21,12 +21,13 @@ h3 {
 }
 
 
-.container{
+.container {
     max-width: 1113px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
 }
+
 .header {
     display: flex;
     height: 70px;
@@ -50,6 +51,16 @@ h3 {
     gap: 54px;
  
 }
+.header .menu a {
+    display: inline-block;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease;
+    line-height: 18px;
+}
+
+.header .menu a:hover {
+    border-color: #000;
+}
 
 .header .logo {
     width: 64px;
@@ -70,6 +81,11 @@ button {
     color:#ffffff ;
     border: none;
     cursor: pointer;   
+    transition: all 0.5s ease;
+}
+
+button:hover {
+    opacity: 0.6;
 }
 
 .btn-link {
@@ -80,6 +96,7 @@ button.btn {
     font-size: 16px;
     padding: 8px 40px;
 }
+
 
 button.btn-large {
     font-size: 16px;
@@ -283,7 +300,6 @@ button.btn-large {
 .block-video .video {
     width: 712px;
     height: 407px;;
-    background-color: blueviolet;
     margin: 73px 0px 0px;
 }
 
@@ -375,7 +391,9 @@ button.btn-large {
     color: #ffffff;
     font-size: 25px;
     text-decoration: none;
+    transition: all 0.5s ease;
 }
+
 .footer ul li a:hover {
     opacity: 0.8;
 }
